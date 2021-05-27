@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>0513</title>
+<script>
+    var X = prompt('請輸入一數字','');
+    function tree(){
+        for (var i = 1; i <= X; i++) {
+            for (var j = 0; j < X - i; j++) {
+                document.write("&ensp;");
+                }
+            for (var z = 0; z < i * 2 - 1; z++) {
+                document.write('*');
+                }
+                document.write('<br>');
+                }
+        for (var i=1;i<=X;i++){
+            for (var j=0;j<X-1;j++){
+                document.write("&ensp;");
+        }
+            document.write('*');
+            document.write('<br>');
+        }
+        }
+        document.write("tree("+X+")");
+        document.write('<br>');
+        tree();
+</script>
+</head>
+</html>

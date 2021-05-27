@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>test</title>
+	</head>
+	個人資料<br>
+	<for name="個人資料">
+         E-mail：<input name="email" type="text" size="8"><br>
+         個人網站：
+	<a href="poc.html">
+	連結</a><br>
+	連絡電話：<input name="tel" type="text" size="8"><br>
+	行動電話帳單：<input name="money" type="text" size="8"><br>
+	對本站的意見：<br>
+	<textarea name="comment" rows="5" cols="25"></textarea><br>
+<form>
+	年月日:<input name="setdatetime" type="datetime-local">
+<form>
+	<p><hr align=left width=50%></p> <br>
+	
+<form>
+        喜歡的色彩:<input type ="color" name ="color"><br>
+</form>
+	
+
+        對本站的評分：
+        不喜歡<input name="score" type="range" min="1" max="5">喜歡<br>
+
+	<form name="test" action="http://httpbin.org/get" method=get>
+        請問您想參加的行程：<select name="tour">
+          <optgroup label="國內">
+            <option value="1">台中一日遊
+            <option value="2">墾丁玩水趣  
+　　　　　　</optgroup>
+          <optgroup label="國外">
+            <option value="3">日本迪士尼
+            <option value="4">韓國樂天世界  
+          </optgroup>          
+        </select><hr>
+        請問您喜歡的食物：<br>
+        <select name="brand" size="5" multiple> 
+          <option value="1">義大利麵
+          <option value="2">牛肉麵
+          <option value="3">滷味
+          <option value="4">滷肉飯
+          <option value="5">關東煮
+          <option value="6">乾麵
+          <option value="7">咖哩飯
+        </select><br><br>
+        <input type="reset" value="清除重填">
+        <input type="submit" value="填完送出">
+</form> 
+</html>
